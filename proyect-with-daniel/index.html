@@ -5,60 +5,64 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 id="title">Survey Form</h1>
-    <p id="description">You can share yours stories with us!</p>
+    <div class="container">
+        <h1 id="title">Survey Form</h1>
+        <p id="description">You can share yours stories with us!</p>
 
-    <form id="survey-form">
-        <label for="name" id="name-label">Name: </label>
-        <input id="name" type="text" placeholder="Name" required>
-        <br>
-        <label for="email" id="email-label">Email: </label>
-        <input id="email" type="email" placeholder="Email" required>
-        <br>
-        <label for="number" id="number-label">Number: </label>
-        <input placeholder="Number" id="number" max="10" min="5" type="number">
-        <br>
-        <label for="dropdown" id=""">Gender: </label>
-        <select id="dropdown">
-            <option value="">Choose one Gender</option>
-            <option value="Male">Male</option>
-            <option value="Female">Female</option>
-        </select>
-        <br>
+        <form id="survey-form">
+            <label for="name" id="name-label">Name: </label>
+            <input id="name" type="text" placeholder="Name" required>
+            <br>
+            <label for="email" id="email-label">Email: </label>
+            <input id="email" type="email" placeholder="Email" required>
+            <br>
+            <label for="number" id="number-label">Number: </label>
+            <input placeholder="Number" id="number" max="10" min="5" type="number">
+            <br>
+            <label for="dropdown" id="">Gender: </label>
+            <select id="dropdown">
+                <option value="">Choose one Gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+            <br>
 
-        <label for="state" id=""">State: </label>
-        <br>
-        <input type="radio" name="state1" value="Active">Active
-        <br>
-        <input type="radio" name="state2" value="Inactive">Inactive
-        <br>
+            <label for="state" id=""">State: </label>
+            <br>
+            <input type="radio" name="state1" value="Active">Active
+            <br>
+            <input type="radio" name="state2" value="Inactive">Inactive
+            <br>
 
-        <label for="state" id=""">Civil status: </label>
-        <br>
-        <input type="radio" name="state1" value="Single">Single
-        <br>
-        <input type="radio" name="state2" value="Married">Married
-        <br>
+            <label for="state" id=""">Civil status: </label>
+            <br>
+            <input type="radio" name="state1" value="Single">Single
+            <br>
+            <input type="radio" name="state2" value="Married">Married
+            <br>
 
-        <label for="" id=""">:Age </label>
-        <br>
-        <input type="checkbox" value="child">Child
-        <br>
-        <input type="checkbox" value="teen">Teen
-        <br>
-        <input type="checkbox" value="adult">Adult
-        <br>
-        <label for="" id=""">Leave us a comment: </label>
-        <br>
-        <textarea name="" id="" cols="30" rows="10" placeholder="Your Comment"></textarea>
-        <br>
-        <button id="submit">Submit</button>
+            <label for="" id=""">Age </label>
+            <br>
+            <input type="checkbox" value="child">Child
+            <br>
+            <input type="checkbox" value="teen">Teen
+            <br>
+            <input type="checkbox" value="adult">Adult
+            <br>
+            <label for="" id="">Leave us a comment: </label>
+            <br>
+            <textarea placeholder="Your Comment"></textarea>
+            <br>
+            <div id="submit">
+                <button>Submit</button>
+            </div>
 
 
-    </form>
+        </form>
+    </div>
     
 </body>
 </html>
